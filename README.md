@@ -7,11 +7,11 @@ NOTE: This program requires an API key from Giantbomb.com in order to be used. I
 
 NOTE: To run this program from the command line, run the following commands, replacing the API key and file paths as necessary:
   
-  $ python platform_pricing.py --giantbomb-api-key [YOUR_KEY] --plot-file ~/Projects/new-coder/apis/my_plot.png
+  $ python platform_pricing.py --giantbomb-api-key [YOUR_KEY] --plot-file [desired filepath]
   
-  $ python platform_pricing.py --giantbomb-api-key [YOUR_KEY] --csv-file ~/Projects/new-coder/apis/my_csv.csv
+  $ python platform_pricing.py --giantbomb-api-key [YOUR_KEY] --csv-file [desired filepath]
   
-  $ python platform_pricing.py --giantbomb-api-key [YOUR_KEY] --plot-file ~/Projects/new-coder/apis/my_plot.png --csv-file ~/Projects/new-coder/apis/my_csv.csv
+  $ python platform_pricing.py --giantbomb-api-key [YOUR_KEY] --plot-file [desired filepath] [csv filepath]
   
-  $python platform_pricing.py --giantbomb-api-key [YOUR_KEY] --debug --limit 40 --csv-file ~/Projects/new-coder/apis/my_csv.csv
+  $ python platform_pricing.py --giantbomb-api-key [YOUR_KEY] --debug --limit 40 [csv filepath]
 
